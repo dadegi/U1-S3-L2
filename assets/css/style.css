@@ -1,3 +1,16 @@
 #list li:nth-child(odd) {
 	color: green;
 }
+
+table {
+	border-collapse: collapse;
+	width: 30%;
+}
+
+thead tr {
+	background-color: aquamarine;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: gray;
+}
